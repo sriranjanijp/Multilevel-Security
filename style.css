@@ -1,0 +1,25 @@
+body {
+    /*display: flex;
+    justify-content: center;*/
+    align-items: center;
+    /*height: 100vh;
+    margin: 0;*/
+    text-align: center;
+    font-family: tahoma;
+    background-color: #ccf4ff;
+}
+
+.err {
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+}
+
+.page2{
+    background-color: #ffccf2;
+}
