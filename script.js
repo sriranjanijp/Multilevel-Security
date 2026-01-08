@@ -4,7 +4,8 @@ function chk1() {
     if (nam.length > 0 && nam[0] === nam[0].toUpperCase()) {
         window.location.href = "step2.html";
     } else {
-        document.getElementById('msg').innerText = "Name must start with a capital letter!";
+        document.getElementById('msg').innerText = "Wrong entry!";
+        document.getElementById('hint').innerText = "Hint: Names must start with capital letters"
     }
 }
 
@@ -26,6 +27,7 @@ function chk2() {
     if (parseInt(val) === sum) {
         window.location.href = "step3.html";
     } else {
+        document.getElementById('hint').innerText = "Hint: 08/01/2026 = 0+8+0+1+2+0+2+6 = 19"
         document.getElementById('msg').innerText = "Wrong sum entered!";
     }
 }
@@ -38,6 +40,7 @@ function chk3() {
         window.location.href = "page2.html";
     } else {
         document.getElementById('msg').innerText = "Wrong lyrics! Try again.";
+        document.getElementById('hint').innerText = "Hint: Starts with \"ready a ...?\""
     }
 }
 

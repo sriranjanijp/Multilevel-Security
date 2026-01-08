@@ -1,8 +1,10 @@
 body {
+    display: flex;
     align-items: center;
+    justify-content: center;
     text-align: center;
     font-family: tahoma;
-    background-color: #ccf4ff;
+    background-color: #c8b6ff;
 }
 
 .err {
@@ -11,11 +13,33 @@ body {
     font-weight: bold;
 }
 
+.hint {
+    color: rgb(0, 182, 40);
+    font-weight: italic;
+}
+
 input, button {
     padding: 10px;
     margin: 5px;
 }
 
 .page2{
-    background-color: #c2a8fb;
+    background-color: #a9def9;
+}
+
+.step2{
+    background-color: #d0f4de;
+}
+
+.step3{
+    background-color: #ffc8dd;
+}
+
+.box {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+    width: 320px;
 }
