@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>Step 3: Lyrics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class = "step4">
+    <div class = "box">
+        <h1>Step 4</h1>
+        <p>Listen to the snippet and type the name of the song:</p>
+        
+        <audio id="aud" src="song.mp3"></audio>
+        <button onclick="play()">Play Song</button>
+        <br><br>
+        <div id="hint" class = "hint"></div>
+        <input type="text" id="lyr" placeholder="Enter lyrics here">
+        <button onclick="chk3()">Verify</button>
+        <div id="msg" class="err"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

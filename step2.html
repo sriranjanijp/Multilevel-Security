@@ -6,10 +6,10 @@
 <body class = "step2">
     <div class = "box">
         <h1>Step 2</h1>
-        <p>Enter the sum of the digits of today's date:</p>
-        <div id="hint" class = "hint"></div>
-        <input type="number" id="inp">
-        <button onclick="chk2()">Verify</button>
+        <p>Enter the below string:</p>
+        <div oncopy="return false;" oncut="return false;" onpaste="return false;" id="captcha" class = "hint"></div>
+        <input type="text" id="inp">
+        <button onclick="captchaCheck()">Verify</button>
         <div id="msg" class="err"></div>
     </div>
     <script src="script.js"></script>

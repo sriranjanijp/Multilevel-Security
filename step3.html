@@ -1,19 +1,15 @@
 <html>
 <head>
-    <title>Step 3: Lyrics</title>
+    <title>Step 2: Date</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body class = "step3">
     <div class = "box">
         <h1>Step 3</h1>
-        <p>Listen to the snippet and type the lyrics:</p>
-        
-        <audio id="aud" src="song.mp3"></audio>
-        <button onclick="play()">Play Song</button>
-        <br><br>
+        <p>Enter the sum of the digits of today's date:</p>
         <div id="hint" class = "hint"></div>
-        <input type="text" id="lyr" placeholder="Enter lyrics here">
-        <button onclick="chk3()">Verify</button>
+        <input type="number" id="inp">
+        <button onclick="chk2()">Verify</button>
         <div id="msg" class="err"></div>
     </div>
     <script src="script.js"></script>
