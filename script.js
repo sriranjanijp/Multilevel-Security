@@ -68,6 +68,6 @@ function captchaCheck(){
     if (inp === result) {
         window.location.href = "step3.html";
     } else {
-        document.getElementById('msg').innerText = "Wrong captcha! Try again."+result;
+        document.getElementById('msg').innerText = "Wrong captcha! Try again.";
     }
 }
